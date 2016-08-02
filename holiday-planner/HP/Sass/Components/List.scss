@@ -1,0 +1,95 @@
+﻿$title-colour: #797979;
+$description-colour: lighten($title-colour,20%);
+$tick-box-tick-width: 40px;
+$tick-box-height: 30px;
+
+.list-item {
+    position: relative;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #808080;
+    cursor: pointer;
+
+    .title {
+        font-size: 12pt;
+        color: $title-colour;
+        float: none;
+        padding-left: 8pt;
+    }
+
+    .title-tick {
+        font-size: 12pt;
+        color: $title-colour;
+        float: none;
+        padding-left: 25pt;
+    }
+
+    .tick-box {
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        float: left;
+        height: $tick-box-height;
+        width: $tick-box-tick-width;
+        color: darken(#009e98,5);
+        font-size: 22pt;
+    }
+
+    .description {
+        font-size: 10pt;
+        color: $description-colour;
+        float: none;
+        padding-left: 12pt;
+    }
+
+    .icon {
+        font-size: 24pt;
+        position: absolute;
+        right: 10pt;
+        top: 4pt;
+        color: #009e98;
+    }
+
+    .label {
+        font-size: 10pt;
+        position: absolute;
+        right: 2pt;
+        top: 9pt;
+    }
+}
+
+.penguin-tick-list {
+    .list-container {
+        position: absolute;
+        left: 0;
+        top: 58px;
+        right: 0;
+        bottom: 0;
+        overflow-y: auto;
+    }
+}
+
+.list-item:hover {
+    background-color: lighten(lightblue,10);
+
+    .title {
+        color: darken($title-colour,20);
+    }
+
+    .description {
+        color: darken($description-colour,20);
+    }
+}
+
+.row-selected {
+    background-color: darken(lightblue,5);
+
+    .title {
+        color: darken($title-colour,10);
+    }
+
+    .description {
+        color: darken($description-colour,10);
+    }
+}

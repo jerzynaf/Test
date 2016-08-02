@@ -1,0 +1,33 @@
+﻿.login-region {
+    background-color: #E5E9EF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 5px;
+    border: 4px solid;
+    border-color: #739ABA;
+    font-size: 15px;
+
+    .blue-button {
+        background-color: $blue-button-colour;
+        color: white;
+        width: 74px;
+    }
+
+    .row {
+        width: 565px;
+        padding-bottom: 23px;
+    }
+
+    .login-fields {
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 40px;
+        padding-bottom: 60px;
+    }
+}
+
+.header-region {
+    height: 100px;
+}

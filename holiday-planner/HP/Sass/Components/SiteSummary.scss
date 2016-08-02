@@ -1,0 +1,19 @@
+﻿.site-view {
+    .row {
+        padding-bottom: 4px;
+    }
+
+    .panel-heading {
+        background-color: $fleet-summary-panel-heading-background-colour;
+        color: white;
+        font-size: 18px;
+    }
+
+    .panel-body {
+        background-color: $fleet-summary-panel-body-background-colour;
+
+        .recently-edited {
+            background-color: $fleet-summary-panel-recently-edited;
+        }
+    }
+}

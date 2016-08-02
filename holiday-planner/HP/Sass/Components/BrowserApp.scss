@@ -1,0 +1,15 @@
+﻿.browser-app {
+    .fleet-categories-app {
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        .category-label {
+            font-size: 17px;
+        }
+    }
+
+    overflow-y:auto;
+    top:0;
+    bottom:0;
+    position:absolute;
+}

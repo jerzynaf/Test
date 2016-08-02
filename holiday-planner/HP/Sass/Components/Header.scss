@@ -1,0 +1,36 @@
+﻿.header-app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: $header-height;
+    background-color: $header-background-colour;
+
+    .toolbar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        margin-bottom: -5px;
+        height: $header-toolbar-height;
+        background-color: $header-toolbar-background-colour;
+    }
+
+    .application-title {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        text-align: right;
+        font-size: $header-title-fontsize;
+        color: $header-title-colour;
+    }
+
+    .application-logo {
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        width: 108px;
+        height: 57px;
+        background-image:url(../../Content/img/AnswerLogo.png);
+    }
+}

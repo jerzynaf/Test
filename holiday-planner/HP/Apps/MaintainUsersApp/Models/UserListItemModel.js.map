@@ -1,0 +1,1 @@
+{"version":3,"file":"UserListItemModel.js","sourceRoot":"","sources":["UserListItemModel.ts"],"names":[],"mappings":"AAAA,+DAA+D;AAC/D,mEAAmE;;;;;;;;IAInE;QAAuC,qCAAc;QAEjD,2BAAY,OAAa;YACrB,EAAE,CAAC,CAAC,CAAC,OAAO,CAAC;gBACT,OAAO,GAAG,EAAE,CAAC;YACjB,kBAAM,OAAO,CAAC,CAAC;QAEnB,CAAC;QACL,wBAAC;IAAD,CAAC,AARD,CAAuC,QAAQ,CAAC,KAAK,GAQpD;IARY,yBAAiB,oBAQ7B,CAAA"}

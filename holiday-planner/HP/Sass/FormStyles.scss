@@ -1,0 +1,33 @@
+﻿    .has-error {
+        select.form-control,
+        input.form-control {
+            border: 1px solid $error-control-border-color !important;
+            background-color: $error-control-background-color !important;
+            padding-right: 36px;
+        }
+    }
+
+
+    .validation-wrapper {
+        position: relative;
+
+        .validation-button {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            bottom: 1px;
+            width: 30px;
+            background-color: #ff6666;
+            margin-top: 1pt;
+            margin-bottom: 2px;
+            margin-right: 1pt;
+            border-radius: 6pt;
+
+            i {
+                color: white;
+                font-size: 19px;
+                padding-left: 4pt;
+                padding-top: 2pt;
+            }
+        }
+    }

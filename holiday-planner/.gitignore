@@ -1,0 +1,16 @@
+SWEB.Database.Scripts/Release0001/AggregatedScripts/WorkingArea/
+SWEB.Services/obj/
+SWEB/node_modules/
+packages/
+SWEB/wwwroot/lib/
+SWEB/obj/
+SWEB/bin/
+CVL.Database/obj/
+CVL.Services/obj/
+CVL.Services/bin/
+CVL/bin/
+CVL/node_modules/
+CVL/lib/
+CVL/obj/
+CVL.Models/obj/
+CVL.Database/bin/

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/cvl.css"/>
+    <link rel="stylesheet" href="~/lib/Font-Awesome/css/font-awesome.min.css" />
+
+</head>
+<body>
+    @RenderBody()
+
+    <script data-main="config" language="javascript" type="text/javascript" src="~/lib/requirejs/require.js"></script>
+    <script language="javascript" type="text/javascript">
+
+
+
+        require(['Apps/CvlBootstrap'], function (app) {
+            var app = new app.CvlBootstrap();
+            app.start();
+        });
+    </script>
+</body>
+</html>

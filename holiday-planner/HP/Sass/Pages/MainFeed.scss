@@ -1,0 +1,26 @@
+﻿.main-feed-page {
+    .header-region {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        right: 0;
+        height: $header-height;
+    }
+
+    .feed-region {
+        position: absolute;
+        top: $header-height;
+        left: 0;
+        right: 0;
+        bottom:0;
+        /*bottom: $footer-height;*/
+    }
+
+    /*.footer-region {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: $footer-height;
+    }*/
+}

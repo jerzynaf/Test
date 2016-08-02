@@ -1,0 +1,78 @@
+﻿.header-toolbar-app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 12px;
+
+    .toolbar-title {
+        position: absolute;
+        left: 18px;
+        color: $header-toolbar-title-colour;
+        padding-top: 9px;
+
+        p {
+            font-size: $header-toolbar-title-fontsize;
+        }
+    }
+
+    .toolbar-dropdowns {
+        position: absolute;
+        right: 60px;
+        color: white;
+        font-size: $header-toolbar-dropdowns-fontsize;
+
+        a {
+            color: white;
+            padding-top: 0;
+        }
+
+        a:hover {
+            color: $header-toolbar-background-colour;
+        }
+
+        .dropdown-menu {
+            min-width: 150px;
+
+            li {
+
+                a {
+                    color: black;
+                }
+
+                a:hover {
+                    background-color: white;
+                    background-image: none;
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+
+        ul li {
+
+            a {
+                border-radius: 4px;
+                padding-bottom: 11px;
+                padding-top: 9px;
+            }
+        }
+
+        .dropdown.open .dropdown-toggle {
+            color: $header-toolbar-background-colour;
+        }
+
+        .nav > li > a:hover, .nav > li > a:focus {
+            color: $header-toolbar-background-colour;
+        }
+    }
+
+    .power-button {
+        position: absolute;
+        top: 7px;
+        width: 21px;
+        height: 23px;
+        right: 7px;
+        background-image: url('../../Content/img/PowerButton.png');
+    }
+}
